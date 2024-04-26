@@ -1,0 +1,223 @@
+body{
+  background-color: skyblue;
+}
+nav {
+  width: 100%;
+  background-color: skyblue;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  height: 24vh;
+
+}
+
+nav .text {
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  margin-left: 10px;
+  padding: 2px 0px 0px 0px; 
+}
+
+nav .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  list-style-type: none;
+}
+
+nav button {  
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.upd
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:40px 0px;
+}
+.sel
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:40px 0px;
+}
+/* insert css */
+.inser {
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.inser label {
+  display: block;
+  text-align: center; 
+  margin-bottom: 10px;
+}
+
+.inser input[type="number"],
+.inser input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; 
+}
+
+.inser button {
+  width: auto; 
+  padding: 6px 12px; 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.inser button:hover {
+  background-color: #0056b3;
+}
+
+
+.inser input::placeholder {
+  color: #aaa;
+}
+/* delete css */
+.del {
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.del input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.del button {
+  width: auto;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
+
+.del button:hover {
+  background-color: #0056b3;
+}
+
+.del input::placeholder {
+  color: #aaa;
+}
+/* update css */
+.upd {
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.upd input[type="number"],
+.upd input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.upd button {
+  width: auto;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
+
+.upd button:hover {
+  background-color: #0056b3;
+}
+
+.upd input::placeholder {
+  color: #aaa;
+}
+/* select css */
+.sel {
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 20px;
+  
+  border-radius: 5px;
+}
+
+.sel h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sel button {
+  width: auto;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto 10px; 
+}
+
+.sel button:hover {
+  background-color: #0056b3;
+}
+
+.sel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sel li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
